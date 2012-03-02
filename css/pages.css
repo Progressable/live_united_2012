@@ -23,7 +23,7 @@ width: 100%;
 
 }
 
-html {background : #ffffff url(../images/bg.jpg) repeat-x 50% 0 fixed;}
+html {background : #0A0D4C url(../images/bg.jpg) repeat-x 50% 0 fixed;}
 
 body.cke_show_borders,
 .cke_panel_block,
@@ -32,6 +32,7 @@ body.cke_show_borders,
 #page {
 	
 	width: 1060px;
+	background : #0A0D4C url(../images/wrap-bg.png) 50% 0 no-repeat;
 }
 
 }
@@ -507,7 +508,6 @@ margin:0em 0;
 */
 #page {
 margin : 0;
-background-color:#172485;
 margin:0 auto;
 position:relative;
 padding-bottom:80px;
@@ -2698,8 +2698,14 @@ background: none;
 cursor: pointer;
 text-indent: -9999px;
 border: none;
-background: url(/sites/all/themes/live_united_2011/images/search-go.gif) no-repeat left top;
 }
+
+#search-block-form input.form-submit, #search-form input.form-submit
+{
+background: url(../images/search-button.gif) no-repeat left top;
+}
+
+
 .views-content-field-slideshow-slide{
 	float:left;
 	margin-right:6px;
@@ -2943,6 +2949,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 border-radius: 2% 2%;
 }
 
+
 .front .with-navigation #content, .front .with-navigation .region-sidebar-first, .front .with-navigation .region-sidebar-second {
 margin-top: none;
 }
@@ -2971,6 +2978,7 @@ width: 90%;
 width: 98%;
 }
 
+
 .front .region-content {
 padding-top: 0px;
 }
@@ -2985,6 +2993,7 @@ display: none;
 background-color: #0d1163;
 }
 
+/**
 .front .with-navigation #content, .front .with-navigation .region-sidebar-first, .front .with-navigation .region-sidebar-second {
 margin-top: 40px;
 }
@@ -3013,6 +3022,8 @@ padding-top: 0px;
 .front .region-sidebar-second {
 border-bottom-left-radius: none;
 }
+
+**/
 
 .field-type-taxonomy-term-reference .field-item
 {display: inline;
@@ -3058,14 +3069,11 @@ width: 78px;
 cursor: pointer;
 text-indent: -9999px;
 border: none;
-background: url(/sites/all/themes/live_united_2011/images/search-go.gif) no-repeat left top;
+background: url(../images/search-go.gif) no-repeat left top;
 border-image: initial;
 }
 
-#search-block-form input.form-submit, #search-form input.form-submit
-{
-background: url(/sites/all/themes/live_united_2011/images/search-button.gif) no-repeat left top;
-}
+
 
 
 #nav-donate
@@ -3074,12 +3082,29 @@ float:right;
 }
 
 #nav-donate {
-float: right;
-top: -32px;
-position: relative;
+position: absolute;
 z-index: 100;
 padding-right: 30px;
+
+background : url(../images/nav-donate.gif);
+display : block;
+width : 60px;
+height : 28px;
+text-decoration : none;
+right: 10px;
+top: 5px;
 }
+
+#nav-donate span {
+visibility: hidden;
+}
+
+#nav-donate-wrapper
+{
+	height:0px;
+}
+
+/**
 
 
 .front .region-sidebar-second .block {
@@ -3137,11 +3162,13 @@ border: none;
 .front #social-btns {
 margin: 10px;
 }
+**/
 
 .sidebar-second #content #block-views-featured-activity-block {
 width: 500px;
 }
 
+/**
 .front .region-sidebar-second a:link, .front .region-sidebar-second a:visited
 {
 color: blue;
@@ -3150,6 +3177,8 @@ color: blue;
 {
 color: #363636;
 }
+**/
+
 
 #summary h3 a:link,#summary h3 a:visited {
 color: #FC9F26;
@@ -3161,6 +3190,46 @@ text-decoration: none;
 font-weight: bold;
 }
 
+#page-wrapper {
+background: transparent url(../images/top-grey-bar-bg.png) repeat-x 50% 0 ;
+margin: 0;
+width: 100%;
+}
+.front #main .tabs
+{
+	display: none;
+}
 
+/*
+.front .region-sidebar-second #block-boxes-ow-cc-email-signup, .front .region-sidebar-second #block-boxes-ow-social-media-buttons-box, .front .region-sidebar-second #boxes-box-ow_gav_actionboxes_2012 {
+background: url(/sites/all/themes/live_united_2011/images/sidebar-action.jpg) no-repeat scroll 0 0 #282F70;
+border: 4px solid #19205C;
+clear: both;
+color: #7B81B8;
+padding: 0 20px 20px;
+width: 340px;
+left: 100px;
+}
 
+*/
+.front .region-sidebar-second #block-boxes-ow-social-media-buttons-box
+{
+	background: blanchedAlmond;
+width: 345px;
+border: 0px;
+right: 15px;
+height: 60px;
+padding-bottom: 0px;
+bottom: -15px;
+}
 
+.region-sidebar-second 
+{
+	border-bottom-left-radius: none;
+	border-bottom-left-radius: 0% 0%;
+}
+
+.front .with-navigation #content,.front .with-navigation .region-sidebar-first, .front .with-navigation .region-sidebar-second
+{
+	padding-bottom: 0px;
+}
