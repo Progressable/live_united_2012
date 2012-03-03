@@ -3233,3 +3233,8 @@ bottom: -15px;
 {
 	padding-bottom: 0px;
 }
+
+.block-nice-menus .block-title
+{
+	display: none;
+}
