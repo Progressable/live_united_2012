@@ -3238,3 +3238,8 @@ bottom: -15px;
 {
 	display: none;
 }
+
+#main .content .tabs, #main .content .title, #main .content  .breadcrumb
+{
+display: none;
+}
