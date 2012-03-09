@@ -1416,6 +1416,7 @@ font-size : 10px;
 #sidebar-right {
 padding-top : 2em;
 }
+
 .region-sidebar-second .block {
 background:url("../images/sidebar-action.jpg") no-repeat scroll 0 0 #282F70;
 border:4px solid #19205C;
@@ -2798,8 +2799,8 @@ width: 240px;
 }
 .social-media-links a {
 display: block;
-width: 35px;
-height: 35px;
+width: 37px;
+height: 37px;
 text-decoration: none;
 margin: 10px;
 float: left;
@@ -3122,19 +3123,32 @@ background: none;
 border-bottom-left-radius: none;
 }
 
-
-.front .region-sidebar-second #block-boxes-email-signup,
-.front .region-sidebar-second #block-boxes-live-united-2011-social-media,
-.front .region-sidebar-second #block-boxes-gav-action-buttons {
-background: url(/sites/all/themes/live_united_2011/images/sidebar-action.jpg) no-repeat scroll 0 0 #282F70;
-border: 4px solid #19205C;
+**/
+.front .region-sidebar-second #block-boxes-ow-cc-email-signup,
+.front .region-sidebar-second #block-boxes-ow-gav-actionboxes-2012 {
+background: none;
+border: none;
 clear: both;
 color: #7B81B8;
 padding: 0 20px 20px;
-width: 340px;
-left: 100px;
 }
 
+.front .region-sidebar-second #block-boxes-ow-gav-actionboxes-2012 
+{
+padding-bottom: 0px;
+}
+
+
+
+.front .region-sidebar-second .section 
+{
+padding-top: 14px;
+padding-top: 14px;
+}
+
+
+
+/**
 .front .region-sidebar-second {
 margin-left: 500px;
 }
@@ -3202,7 +3216,7 @@ width: 100%;
 
 /*
 .front .region-sidebar-second #block-boxes-ow-cc-email-signup, .front .region-sidebar-second #block-boxes-ow-social-media-buttons-box, .front .region-sidebar-second #boxes-box-ow_gav_actionboxes_2012 {
-background: url(/sites/all/themes/live_united_2011/images/sidebar-action.jpg) no-repeat scroll 0 0 #282F70;
+background: url(/sites/all/themes/live_united_2012/images/sidebar-action.jpg) no-repeat scroll 0 0 #282F70;
 border: 4px solid #19205C;
 clear: both;
 color: #7B81B8;
@@ -3218,7 +3232,7 @@ left: 100px;
 width: 345px;
 border: 0px;
 right: 15px;
-height: 60px;
+height: 62px;
 padding-bottom: 0px;
 bottom: -15px;
 }
