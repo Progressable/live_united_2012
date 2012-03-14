@@ -1726,7 +1726,6 @@ padding:0 1em;
 
 
 .node-teaser ul.links.inline {
-border-top:1px dashed #333333;
 clear:both;
 margin:0;
 padding:0.5em 0;
@@ -3135,18 +3134,18 @@ color: #7B81B8;
 .front .region-sidebar-second #block-boxes-ow-social-media-buttons-box
 {
 background: blanchedAlmond;
-width: 345px;
+width: 340px;
 border: 0px;
 height: 67px;
 padding-bottom: 0px;
-right: -101px;
+right: -106px;
 }
 
 .front .region-sidebar-second #block-boxes-ow-cc-email-signup
 {
 background: #070F4C;
-right: -101px;
-width: 345px;
+right: -106px;
+width: 340px;
 margin: 0px;
 }
 
@@ -3412,7 +3411,7 @@ border-image: initial;
 }
 
 .front .region-sidebar-second a:link, .front .region-sidebar-second a:visited {
-color: blue;
+color: #0B1980;
 }
 
 .front .region-sidebar-second .block {
@@ -3471,7 +3470,7 @@ text-align: right;
 bottom: 0px;
 left: 0px;
 width: 620px;
-height: 75px;
+height: 68px;
 background-color: white;
 filter:alpha(opacity=90);
 opacity: 0.9;
@@ -3487,7 +3486,7 @@ font-size: 18px;color: #363636;
 
 #slide-content p
 {color: #363636;font-size: 13px; width: 280px;
-line-height: 1.3;font-weight:normal;text-decoration: none;}
+line-height: 1.3;font-weight:normal;text-decoration: none; margin-bottom: 6px}
 
 #slide-content a
 {
@@ -3514,7 +3513,7 @@ height: 12px;
 .views-slideshow-controls-bottom 
 {left: 530px;
 position: relative;
-top: -58px;
+top: -50px;
 z-index: 10;
 }
 
@@ -3530,12 +3529,51 @@ left: 320px;
 
 .take-action-slide-button a
 {
-background: url("../images/take-action1.gif") 0 0 no-repeat;
+background: url("../images/blank-button.gif") 0 0 no-repeat;
 width: 160px;
 height: 60px;
 overflow: hidden;
 display: inline-block;
-text-indent: -99999em;
+text-indent: 40px;
+line-height: 45px;
+color: white;
+text-decoration: none;
+text-shadow: 1px 1px 0 grey;
 }
 
+.view-ow-front-display-boxes {
+background: url("../images/home-action-bg.gif") 0 0 no-repeat;
+padding: 15px 10px 0 15px;
+}
+
+
+.view-ow-front-display-boxes td
+{
+  vertical-align: top;
+}
+
+
+.views-slideshow-pager-field-item
+{
+display: inline-block;
+}
+
+
+.node-teaser .node-readmore a, .node-teaser .rpx-button-social {
+background-color: grey;
+background-position: 2px center;
+background-repeat: no-repeat;
+border-radius: 1px 1px 1px 1px;
+color: white;
+display: inline;
+font-size: 14px;
+padding: 4px 4px 2px 6px;
+position: relative;
+color: white;
+font-style: normal;
+font-weight: bold;
+padding: 6px 10px;
+position: relative;
+font-family: arial,sans-serif;
+}
 

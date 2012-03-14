@@ -147,7 +147,7 @@ padding-bottom: 5px;
 .region-sidebar-second {
   float: left; /* LTR */
   width: 385px;
-  margin-left: 615px; /* LTR */ /* Width of content + sidebar-first. */
+  margin-left: 616px; /* LTR */ /* Width of content + sidebar-first. */
   margin-right: -860px; /* LTR */ /* Negative value of .region-sidebar-second's width + left margin. */
   padding: 0; /* DO NOT CHANGE. Add padding or margin to .region-sidebar-second .section. */
 }
