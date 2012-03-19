@@ -482,9 +482,9 @@ top: -145px;
 }
 
 
-ul.links a{
+ul.links a, li a.active
+{
 color: #ffffff;
-padding:10px;
 }
 
 body {
@@ -529,7 +529,7 @@ padding:0 0px 80px;
 text-decoration : none;
 clear : both;
 margin : 0 auto;
-padding-bottom : 6px;
+padding-bottom: 5.4px;
 height:30px;
 width:100%;
 margin-bottom: 125px;
@@ -642,6 +642,11 @@ min-height:450px;
 width:960px;
   
   }    
+  
+  .no-sidebars #main #content .view-mode-full {
+width: 990px;
+
+}
   
 .one-sidebar .with-navbar #content {
 background : #ffffff url(subMainWhiteTop.gif) no-repeat scroll center top;  
@@ -765,9 +770,7 @@ tr.even, tr.odd {
 border-bottom : none;
 padding : 0;
 }
-li a.active {
-color : #000;
-}
+
 .form-item, .form-checkboxes, .form-radios {
 margin : 1em 0;
 }
@@ -1723,12 +1726,15 @@ padding:0 1em;
 .comment_new_comments a
 {display:none}
 
-
+#comments {
+width: 750px;
+}
 
 .node-teaser ul.links.inline {
 clear:both;
 margin:0;
 padding:0.5em 0;
+display: block;
 }
 
 .node-teaser .terms-inline ul.links.inline {
@@ -2258,12 +2264,6 @@ padding: 8px;
 }
 
 
-
-.region-footer .views-row-even {
-background-color:#F0F0F0;
-}
-
-
 .fb_social_like
 {
 left:425px;
@@ -2771,7 +2771,6 @@ font-size: 14px;
 font-weight: bold;
 background-color: #0C1976;
 font-family: "Trebuchet MS",Helvetica,"Lucida Sans Unicode","Lucida Grande",Arial,sans-serif;
-line-height: 33px;
 color: #969DE1;
 text-transform: uppercase;
 }
@@ -2798,8 +2797,8 @@ width: 240px;
 }
 .social-media-links a {
 display: block;
-width: 37px;
-height: 37px;
+width: 36px;
+height: 36px;
 text-decoration: none;
 margin: 10px;
 float: left;
@@ -3040,6 +3039,7 @@ float: right;
 top: -113px;
 z-index: 100;
 padding-right: 30px;
+position: relative;
 }
 
 
@@ -3056,16 +3056,16 @@ border-bottom-left-radius: 0.2em 0.2em;
 border-bottom-right-radius: 0.2em 0.2em;
 border-top-left-radius: 0.2em 0.2em;
 border-top-right-radius: 0.2em 0.2em;
-height: 22px;
+height: 26px;
 border-image: initial;
-width: 210px;
+width: 222px;
 }
 
 .block-email-form .submit {
 border: medium none;
-height: 24px;
+height: 30px;
 padding: 0 3px;
-width: 78px;
+width: 100px;
 cursor: pointer;
 text-indent: -9999px;
 border: none;
@@ -3136,38 +3136,40 @@ color: #7B81B8;
 background: blanchedAlmond;
 width: 340px;
 border: 0px;
-height: 67px;
+height: 68px;
 padding-bottom: 0px;
-right: -106px;
+right: -105px;
+position: relative;
 }
 
 .front .region-sidebar-second #block-boxes-ow-cc-email-signup
 {
 background: #070F4C;
-right: -106px;
+right: -105px;
 width: 340px;
 margin: 0px;
+position: relative;
 }
 
 .front .region-sidebar-second #block-boxes-ow-gav-actionboxes-2012
 {
 background: #070F4C;
 margin: 0px;
-right: -106px;
+right: -105px;
 width: 340px;
+position: relative;
 }
 
 .front .region-sidebar-second #block-boxes-ow-cc-email-signup .boxes-box
 
 {
 padding-top:15px;
-padding-bottom: 5px;
 }
 
 .front .region-sidebar-second #block-boxes-ow-gav-actionboxes-2012 .boxes-box
 {
 padding-top:10px;
-padding-bottom: 25px;
+padding-bottom: 20px;
 }
 
 .front .with-navigation .region-sidebar-second {
@@ -3471,11 +3473,13 @@ bottom: 0px;
 left: 0px;
 width: 620px;
 height: 68px;
+height: 68px;\9; /* IE 8 and below */
 background-color: white;
-filter:alpha(opacity=90);
 opacity: 0.9;
 -moz-opacity: 0.9;
 bottom: 5px;
+*bottom: 0px /* IE 7 and below */
+
 }
 
 #slide-content{position: absolute;bottom: 5px;left: 20px;padding-right: 30px;}
@@ -3531,7 +3535,7 @@ left: 320px;
 {
 background: url("../images/blank-button.gif") 0 0 no-repeat;
 width: 160px;
-height: 60px;
+height: 55px;
 overflow: hidden;
 display: inline-block;
 text-indent: 40px;
@@ -3576,4 +3580,108 @@ padding: 6px 10px;
 position: relative;
 font-family: arial,sans-serif;
 }
+
+
+.node-ow-story .field-type-image img {
+float: left;
+padding: 3px;
+}
+
+.node-ow-story .field-name-field-image img {
+margin-left: auto;
+margin-right: auto;
+}
+
+.field-name-body {
+clear: both;
+}
+
+
+
+.front .field-name-field-ow-story-images
+{
+height: 150px;
+overflow: hidden;
+}
+
+.user-picture img {
+    float: left;
+    margin: 4px;
+}
+
+
+
+
+
+.node-blog .field-name-field-image img, .node-blog .field-name-field-image {
+float: right;
+margin: 4px;
+Position: relative;
+top: -30px;
+}
+
+.no-sidebars #main #content .view-mode-full {
+width: 960px;
+}
+
+.region-footer .views-row-even {
+    background-color: none;
+}
+
+
+
+
+.region-footer .block-views {
+    background-color: #F0F0F0;
+    border: 1px solid #D9DAE1;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 25px;
+    padding-right: 50px;
+    border-radius: 1% 1%;
+}
+
+.region-footer .block-views .field-type-image
+{
+height: 150px;
+overflow: hidden;
+}
+
+#secondary-menu li a.active
+{
+color:#FFFFFF
+}
+
+
+/** IE 7 Tweeks **/
+.views-slideshow-controls-bottom
+{
+*display:none;
+}
+
+#header #secondary-menu
+
+{
+*display:none;
+}
+
+.block-email-form .submit
+{
+*text-indent: 0px;
+*background: grey;
+*color: white;
+*font-weight: bolder;
+}
+
+
+#search-block-form input.form-submit, #search-form input.form-submit
+
+{
+*text-indent: 0px;
+*background: none;
+*color: white;
+*font-weight: bolder;
+}
+
 
