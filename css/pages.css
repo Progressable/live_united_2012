@@ -3708,3 +3708,167 @@ display: none;
 {
 display: none;
 }
+
+.node-blog .field-name-field-image img, .node-blog .field-name-field-image 
+{
+top: 0px;
+}
+
+
+.node-teaser .user-picture img {
+width: 80px;
+height: 80px;
+}
+
+.node-teaser {
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+
+.front .more-link a, .page-blog .action-links a
+{
+background-color: #0B1980;
+background-repeat: no-repeat;
+border-radius: 1px 1px 1px 1px;
+color: white;
+display: inline;
+font-size: 14px;
+padding: 4px 4px 2px 6px;
+color: white;
+font-style: normal;
+font-weight: bold;
+padding: 6px 10px;
+font-family: arial,sans-serif;
+text-decoration: none;
+list-style-image: none;
+list-style-type: none;
+}
+}
+
+.view-mode-full .submitted {
+display: block;
+}
+.permalink
+{
+display: none;
+}
+
+.submitted {
+    font-style: italic;
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+
+.not-front .page-blog .node-teaser
+{
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+.node-post .field-type-image img
+{
+float: left;
+padding: 3px;
+}
+
+.front .field-name-field-post-images {
+height: 150px;
+overflow: hidden;
+}
+
+.not-front .node-post .field-name-body {
+clear: both;
+}
+
+.volunteer_search_box_text input
+{
+width: 400px;
+}
+
+#block-views-ow-featured-activity-block .views-row {
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+.view-mode-full .submitted {
+display: block;
+}
+
+.comment-add a {
+display: none;
+}
+
+.comment ul.links a, .comment li a.active {
+color: grey;
+}
+
+
+.social-media-links .displace {
+position: absolute;
+left: -5000px;
+height: 40px;
+width: 35px;
+}
+
+
+.node-blog .content {
+padding-top: 20px;
+}
+
+
+.node-teaser .field-name-field-media-link a
+{
+background-color: grey;
+background-position: 2px center;
+background-repeat: no-repeat;
+border-radius: 1px 1px 1px 1px;
+color: white;
+display: inline;
+font-size: 14px;
+padding: 4px 4px 2px 6px;
+position: relative;
+color: white;
+font-style: normal;
+font-weight: bold;
+padding: 6px 10px;
+position: relative;
+font-family: arial,sans-serif;
+}
+
+.node-teaser .field-name-field-media-link .field-label
+{
+display: none;
+}
+.node-press.node-teaser .node-readmore a
+{
+display: none;
+}
+
+.not-front node-ow-story .field-name-body {
+clear: both;
+}
+
+.view-id-staff_list .views-view-grid td {
+padding: 25px;
+}
+
+h1#site-name, div#site-name {
+font-size: 26px;
+}
+
+
+.not-front .node-blog .field-name-body {
+clear: none;
+}
+
+.rss-feed
+{
+background: url(../misc/feed.png) no-repeat;
+width: 40px;
+float: right;
+overflow: visible;
+position: relative;
+top: -25px;
+height: 18px;
+}
