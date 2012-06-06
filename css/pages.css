@@ -520,7 +520,7 @@ h1.title, h2.title, h3.title { margin: 0; }
   .with-navbar #sidebar-right { margin-top: 40px; /* Set this to the same value as the navbar height above. */ }
 
 #content {
-	background: #ffffff url(subMainWhiteTop.gif) no-repeat scroll center top;
+
 	min-height: 450px; }
 
 .no-sidebars #content { width: 960px; }
@@ -528,7 +528,6 @@ h1.title, h2.title, h3.title { margin: 0; }
 .no-sidebars #main #content .view-mode-full { width: 990px; }
 
 .one-sidebar .with-navbar #content {
-	background: #ffffff url(subMainWhiteTop.gif) no-repeat scroll center top;
 	width: 580px;
 	min-height: 450px; }
 
@@ -918,7 +917,6 @@ body#sub { background: #ffffff url(g_sub.gif) repeat-x; }
 	float: left;
 	padding-top: 5px;
 	width: 960px;
-	background: #ffffff url(subMainWhiteTop.gif) no-repeat top; }
 
 #sub_topWhiteBoxBGInsideGradient {
 	float: left;
@@ -2000,7 +1998,6 @@ a img { border: none; }
 
 #navbar {
 	overflow: visible;
-	background: url("nav-bg.gif") no-repeat scroll 0 0 transparent; }
 
 .two-sidebars #content-inner {  }
 
@@ -2009,7 +2006,7 @@ a img { border: none; }
 	height: 90px;
 	width: 950px; }
 
-.nice-menu { background: #0E1A75 url("images/nav-bg.gif") 0 0 no-repeat; }
+.nice-menu { background: #0E1A75 url("../images/nav-bg.gif") 0 0 no-repeat; }
 
 ul.nice-menu li {
 	background-color: none;
@@ -3057,6 +3054,9 @@ h1#site-name, div#site-name { font-size: 26px; }
 		bottom: 0;
 		left: 130px; }
 
+.field-collection-item-field-ow-landing-highlights .content .field-name-field-ow-lp-hl-link a {
+	font-weight: bold; }
+
 .field-name-field-ow-landing-action {
 	padding-top: 50px;
 	left: 100px;
@@ -3124,11 +3124,23 @@ background: url("../images/landing-action-bg-odd.gif") repeat-x left top;
 **/
 
 .node-type-ow-landing-page #secondary-menu, .node-type-ow-landing-page .region-navigation, .node-type-ow-landing-page  .breadcrumb
-
-
 {display:none;}
 
-.node-type-ow-landing-page .with-navigation #content
+
+.node-type-ow-landing-page .with-navigation #content {
+margin-top: 100px;
+}
+
+
+.field-collection-item-field-ow-landing-highlights
 {
 margin-top: 0px;
+}
+
+width: 290px;
+float: left;
+min-height: 160px;
+padding-right: 20px;
+padding-top: 30px;
+
 }
